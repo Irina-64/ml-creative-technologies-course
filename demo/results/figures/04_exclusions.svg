@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="300">
+<rect width="100%" height="100%" fill="white"/>
+<text x="25" y="36" font-family="Arial" font-size="22">Причины исключения записей</text>
+<text x="25" y="89" font-family="Arial" font-size="18">Дубликат</text>
+<rect x="330" y="65" width="500.0" height="32" fill="#2563A6"/>
+<text x="840.0" y="89" font-family="Arial" font-size="18">3</text>
+<text x="25" y="149" font-family="Arial" font-size="18">Неизвестный допуск</text>
+<rect x="330" y="125" width="333.3333333333333" height="32" fill="#2563A6"/>
+<text x="673.3333333333333" y="149" font-family="Arial" font-size="18">2</text>
+<text x="25" y="209" font-family="Arial" font-size="18">Пустое описание</text>
+<rect x="330" y="185" width="166.66666666666666" height="32" fill="#2563A6"/>
+<text x="506.66666666666663" y="209" font-family="Arial" font-size="18">1</text>
+</svg>

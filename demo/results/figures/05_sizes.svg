@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="240">
+<rect width="100%" height="100%" fill="white"/>
+<text x="25" y="36" font-family="Arial" font-size="22">Размеры учебных макетов</text>
+<text x="25" y="89" font-family="Arial" font-size="18">600 x 800</text>
+<rect x="330" y="65" width="500.0" height="32" fill="#2563A6"/>
+<text x="840.0" y="89" font-family="Arial" font-size="18">18</text>
+<text x="25" y="149" font-family="Arial" font-size="18">800 x 600</text>
+<rect x="330" y="125" width="500.0" height="32" fill="#2563A6"/>
+<text x="840.0" y="149" font-family="Arial" font-size="18">18</text>
+</svg>

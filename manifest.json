@@ -1,0 +1,207 @@
+[
+  {
+    "lab": 1,
+    "title": "Project Brief: проблема и ценность",
+    "docx": "labs/01/МУ_ЛР_01.docx",
+    "words": 2041,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/01/demo/alternatives.md",
+      "labs/01/demo/project_brief.docx",
+      "labs/01/demo/project_brief.md",
+      "labs/01/demo/scenarios.md",
+      "labs/01/demo/stakeholders.md"
+    ]
+  },
+  {
+    "lab": 2,
+    "title": "Извлечение знаний о предметной области",
+    "docx": "labs/02/МУ_ЛР_02.docx",
+    "words": 1653,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/02/demo/entities.md",
+      "labs/02/demo/glossary.md",
+      "labs/02/demo/notes.md",
+      "labs/02/demo/protocol.md",
+      "labs/02/demo/provenance.md"
+    ]
+  },
+  {
+    "lab": 3,
+    "title": "Стейкхолдеры, требования и критерии успеха",
+    "docx": "labs/03/МУ_ЛР_03.docx",
+    "words": 1325,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/03/demo/raci.md",
+      "labs/03/demo/requirements.md",
+      "labs/03/demo/traceability.md",
+      "labs/03/demo/user_stories.md"
+    ]
+  },
+  {
+    "lab": 4,
+    "title": "Реестр данных и Data Card",
+    "docx": "labs/04/МУ_ЛР_04.docx",
+    "words": 1377,
+    "required_artifacts": 6,
+    "artifact_files": [
+      "labs/04/demo/data_card.md",
+      "labs/04/demo/schema.md",
+      "labs/04/demo/sources.md",
+      "labs/04/demo/split_and_plan.md"
+    ]
+  },
+  {
+    "lab": 5,
+    "title": "Разведочный анализ и проверка качества данных",
+    "docx": "labs/05/МУ_ЛР_05.docx",
+    "words": 1252,
+    "required_artifacts": 4,
+    "artifact_files": [
+      "labs/05/demo/data_card_update.md",
+      "labs/05/demo/eda_run.md",
+      "labs/05/demo/quality_review.md"
+    ]
+  },
+  {
+    "lab": 6,
+    "title": "Разметка и подготовка данных",
+    "docx": "labs/06/МУ_ЛР_06.docx",
+    "words": 1212,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/06/demo/annotation_guideline.md",
+      "labs/06/demo/annotation_results.md",
+      "labs/06/demo/preprocessing.md"
+    ]
+  },
+  {
+    "lab": 7,
+    "title": "Baseline для проектной задачи",
+    "docx": "labs/07/МУ_ЛР_07.docx",
+    "words": 1347,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/07/demo/baseline_findings.md",
+      "labs/07/demo/baseline_readme.md",
+      "labs/07/demo/settings.md"
+    ]
+  },
+  {
+    "lab": 8,
+    "title": "Метрики и анализ ошибок",
+    "docx": "labs/08/МУ_ЛР_08.docx",
+    "words": 1186,
+    "required_artifacts": 4,
+    "artifact_files": [
+      "labs/08/demo/error_taxonomy.md",
+      "labs/08/demo/hypothesis.md",
+      "labs/08/demo/manual_calculation.md",
+      "labs/08/demo/metric_spec.md"
+    ]
+  },
+  {
+    "lab": 9,
+    "title": "Эксперимент с улучшением",
+    "docx": "labs/09/МУ_ЛР_09_финал.docx",
+    "words": 1100,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/09/demo/comparison.md",
+      "labs/09/demo/decision.md",
+      "labs/09/demo/experiment_log.md",
+      "labs/09/demo/experiment_plan.md"
+    ]
+  },
+  {
+    "lab": 10,
+    "title": "Выбор архитектуры и инструментов",
+    "docx": "labs/10/МУ_ЛР_10.docx",
+    "words": 1144,
+    "required_artifacts": 4,
+    "artifact_files": [
+      "labs/10/demo/architecture.md",
+      "labs/10/demo/architecture_decision.md",
+      "labs/10/demo/architecture_matrix.md"
+    ]
+  },
+  {
+    "lab": 11,
+    "title": "Минимальный ML/GenAI-модуль",
+    "docx": "labs/11/МУ_ЛР_11.docx",
+    "words": 1234,
+    "required_artifacts": 6,
+    "artifact_files": [
+      "labs/11/demo/cases.md",
+      "labs/11/demo/contract.md",
+      "labs/11/demo/module_readme.md"
+    ]
+  },
+  {
+    "lab": 12,
+    "title": "Интеграция знаний и human-in-the-loop",
+    "docx": "labs/12/МУ_ЛР_12.docx",
+    "words": 1126,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/12/demo/correction_and_escalation.md",
+      "labs/12/demo/feedback_protocol.md",
+      "labs/12/demo/knowledge_layer.md",
+      "labs/12/demo/review_policy.md"
+    ]
+  },
+  {
+    "lab": 13,
+    "title": "Alpha-демонстратор",
+    "docx": "labs/13/МУ_ЛР_13.docx",
+    "words": 1091,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/13/demo/limitations.md",
+      "labs/13/demo/run_and_record.md",
+      "labs/13/demo/walkthrough.md"
+    ]
+  },
+  {
+    "lab": 14,
+    "title": "Model Card и риск-реестр",
+    "docx": "labs/14/МУ_ЛР_14.docx",
+    "words": 1308,
+    "required_artifacts": 4,
+    "artifact_files": [
+      "labs/14/demo/failure_examples.md",
+      "labs/14/demo/mitigations.md",
+      "labs/14/demo/model_card.md",
+      "labs/14/demo/risk_register.md"
+    ]
+  },
+  {
+    "lab": 15,
+    "title": "Пользовательская проверка alpha-версии",
+    "docx": "labs/15/МУ_ЛР_15.docx",
+    "words": 1268,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/15/demo/documentation_update.md",
+      "labs/15/demo/research_findings.md",
+      "labs/15/demo/research_protocol.md",
+      "labs/15/demo/simulated_notes.md"
+    ]
+  },
+  {
+    "lab": 16,
+    "title": "Рубежная защита портфолио",
+    "docx": "labs/16/МУ_ЛР_16.docx",
+    "words": 1426,
+    "required_artifacts": 5,
+    "artifact_files": [
+      "labs/16/demo/contribution_examples.md",
+      "labs/16/demo/defense_slides.md",
+      "labs/16/demo/portfolio.md",
+      "labs/16/demo/rehearsal.md",
+      "labs/16/demo/Защита_демо.pptx"
+    ]
+  }
+]

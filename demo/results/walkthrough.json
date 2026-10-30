@@ -1,0 +1,130 @@
+[
+  {
+    "case": "Поиск",
+    "path": "/search",
+    "input": {
+      "query": "саксофон лаконичный"
+    },
+    "http_status": 200,
+    "output": {
+      "status": "ok",
+      "model": "improved",
+      "results": [
+        {
+          "id": "P001",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P001.svg"
+        },
+        {
+          "id": "P003",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P003.svg"
+        },
+        {
+          "id": "P005",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P005.svg"
+        }
+      ],
+      "human_decision_required": true
+    }
+  },
+  {
+    "case": "Выбор",
+    "path": "/feedback",
+    "input": {
+      "record_id": "P001",
+      "action": "select",
+      "actor": "designer_demo"
+    },
+    "http_status": 200,
+    "output": {
+      "record_id": "P001",
+      "action": "select",
+      "actor": "designer_demo",
+      "proposed_style": null,
+      "status": "recorded",
+      "model_updated": false
+    }
+  },
+  {
+    "case": "Пустой запрос",
+    "path": "/search",
+    "input": {
+      "query": ""
+    },
+    "http_status": 400,
+    "output": {
+      "status": "error",
+      "error": "empty_query"
+    }
+  },
+  {
+    "case": "Другой язык",
+    "path": "/search",
+    "input": {
+      "query": "jazz minimalist"
+    },
+    "http_status": 200,
+    "output": {
+      "status": "no_matches",
+      "model": "improved",
+      "results": [],
+      "human_decision_required": true
+    }
+  },
+  {
+    "case": "Резервный режим",
+    "path": "/search",
+    "input": {
+      "query": "джаз минимализм"
+    },
+    "http_status": 200,
+    "output": {
+      "status": "fallback",
+      "model": "baseline",
+      "results": [
+        {
+          "id": "P001",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P001.svg"
+        },
+        {
+          "id": "P003",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P003.svg"
+        },
+        {
+          "id": "P005",
+          "genre": "джаз",
+          "style": "минимализм",
+          "score": 0.901752,
+          "source": "generated:demo/project.py",
+          "rights_status": "demo_allowed",
+          "image": "demo/data/posters/P005.svg"
+        }
+      ],
+      "human_decision_required": true
+    }
+  }
+]

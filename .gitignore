@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+_qa/
+_build/
+demo/runtime/
+~$*
+labs/09/МУ_ЛР_09.docx
